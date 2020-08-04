@@ -5,3 +5,4 @@ A collection of Python implementations of various data structures.
 1) Linked List
 2) Binary Tree
 3) Stack
+4) Queue
