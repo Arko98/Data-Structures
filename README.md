@@ -7,3 +7,4 @@ A collection of Python implementations of various data structures.
 3) Stack
 4) Queue
 5) Linear Hash Table
+6) Chained Hash Table
