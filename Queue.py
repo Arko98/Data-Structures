@@ -17,7 +17,7 @@ class Queue:
       print("Overflow: Queue is Full")
 
   def dequeue(self):
-    if (Queue.Front<=Queue.Rear or Queue.Front==Queue.Rear!=-1):
+    if (Queue.Front<Queue.Rear or Queue.Front==Queue.Rear!=-1):
       Queue.Front += 1
     else:
       print("Underflow: Queue is Empty")
