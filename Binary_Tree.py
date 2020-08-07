@@ -32,6 +32,14 @@ class Binary_Tree:
       depth_value = max(l_depth,r_depth)+1
       return depth_value
   
+  def count(self, root):
+    if root == None:
+      return 0
+    else:
+      l_count = self.count(root.left)
+      r_count = self.count(root.right)
+      return (1+l_count+r_count)
+  
 # Driver Code
 root = Binary_Tree(1)
 root.left = Binary_Tree(2)
